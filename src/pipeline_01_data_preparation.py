@@ -6,7 +6,7 @@ import logging
 from src.utils.common_utils import read_params
 
 def data_preparation(config_path, datasource):
-    config = read_params(config_path=config_path, datasource=datasource)
+    config = read_params(config_path=config_path)
 
     print(config)
 

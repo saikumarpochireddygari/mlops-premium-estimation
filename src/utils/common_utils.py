@@ -6,7 +6,7 @@ import json
 import pandas as pd
 
 
-def read_params(config_path: str, datasource) -> dict:
+def read_params(config_path: str) -> dict:
     with open(config_path) as yaml_file:
         config = yaml.safe_load(yaml_file)
     # logging.info(f"Read the Parameters")
